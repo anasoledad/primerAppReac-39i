@@ -8,7 +8,7 @@ const [numero, setNumero] = useState(10)
         <section className="text-center">
             <h3>Contador</h3>
             <h3>{numero}</h3>
-            <button className="btn btn-primary">+1</button>
+            <button className="btn btn-primary" onClick={()=>setNumero(numero + 1)}>+1</button>
         </section>
     );
 };

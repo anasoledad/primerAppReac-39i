@@ -12,6 +12,7 @@ function App() {
     <section className='container my-4'>
         {/* <Titulos aqui van los props></Titulos> */}
         <Titulos nuevoTitulo ='Este titulo fue creado por props' otroDato={true}/>
+        <hr />
         <Contador></Contador>
     </section>
 
